@@ -7,7 +7,7 @@ therefore, it is necessary to install Python 3 and objdump before using it.
 
 ## Running
 Cande is invoked in the following way:
-   cande [-v] <executable-file-1> [ <executable-file-2> [...]]
+   cande [-v] &lt;executable-file-1> [ &lt;executable-file-2> [...]]
 
 -t : _(T)horough_ mode. Normally cande exits once it detects a single stack-canary. In _thorough_ mode, it attempts to find all stack-canaries
 
