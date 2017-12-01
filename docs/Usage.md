@@ -11,7 +11,7 @@ Cande is invoked in the following way:
 
 -t : _(T)horough_ mode. Normally cande exits once it detects a single stack-canary. In _thorough_ mode, it attempts to find all stack-canaries
 
-executable-file-X: These are native binaries that are either Microsoft's Portable Executable (PE) type(both Dynamically Linked Libraries and Executables) or the Executable and Linkable Format type that exist on Unix-derivative systems (this includes shared libraries, *.so, files).
+&lt;executable-file-X>: These are native binaries that are either Microsoft's Portable Executable (PE) type(both Dynamically Linked Libraries and Executables) or the Executable and Linkable Format type that exist on Unix-derivative systems (this includes shared libraries, *.so, files).
 
 If a canary is found, cande prints
 >   Found gcc-style canary in '...'
