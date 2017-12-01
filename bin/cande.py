@@ -53,7 +53,7 @@ def analyze(filepath, is_concise):
  
 
 if len(sys.argv) == 1:
-  print( "Usage: cande.py [-v] [<file-1> [ ...]]")
+  print( "Usage: cande.py [-t] [<file-1> [ ...]]")
   sys.exit(0)
 
 execname=""  
@@ -74,7 +74,7 @@ is_concise=True
 for ii in range(1, len(sys.argv)):
   if sys.argv[ii]=='-q':
     is_concise=True
-  elif sys.argv[ii]=='-v':
+  elif sys.argv[ii]=='-t':
     is_concise=False
   else:
     analyze(sys.argv[ii], is_concise)
